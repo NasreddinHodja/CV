@@ -13,6 +13,7 @@
     location: "Rio de Janeiro, RJ",
   ),
   accent-color: rgb("#26428b"),
+  footer: none,
 )
 
 #side[
@@ -20,10 +21,11 @@
   #contact-info()
   #social-links()
 
-  = Languages
-  #item-with-level("Portuguese", 5)
-  #item-with-level("French", 5)
-  #item-with-level("English", 5)
+  = Frameworks
+  #item-with-level("Vue.js / Nuxt", 4)
+  #item-with-level("React / Next.js", 4)
+  #item-with-level("Flutter", 3)
+  #item-with-level("Django", 3)
 
   = Programming
   #item-with-level("TypeScript", 5)
@@ -32,14 +34,13 @@
   #item-with-level("C / C++", 3)
   #item-with-level("Rust", 2)
 
-  = Frameworks
-  #item-with-level("Vue.js / Nuxt", 4)
-  #item-with-level("React / Next.js", 4)
-  #item-with-level("Flutter", 3)
-  #item-with-level("Django", 3)
+  = Languages
+  #item-with-level("Portuguese", 5)
+  #item-with-level("French", 5)
+  #item-with-level("English", 5)
 
   = Tools
-  Supabase · Docker · PostgreSQL · Git · GNU/Linux · Tailwind CSS · Vitest
+  Supabase · Docker · PostgreSQL · Git · GNU/Linux · Vitest · AWS
 ]
 
 = Summary
